@@ -1,0 +1,23 @@
+{
+  "name": "demo-auto-updating",
+  "version": "1.0.0",
+  "description": "demo auto update",
+  "main": "main.js",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/anhduy97a6/Demo-auto-updating.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "author": "DuyDN",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^12.0.5",
+    "electron-builder": "^22.10.5"
+  },
+  "dependencies": {
+    "electron-updater": "^4.3.8"
+  }
+}
